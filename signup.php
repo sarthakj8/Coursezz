@@ -13,7 +13,7 @@ if(isset($_POST['name'])){
   $sql="INSERT INTO `user_details`(`name`, `e_mail`, `password`) VALUES ('$username', '$e_mailid', '$password')";
   if($con->query($sql) == true){
     // echo "Successfully inserted";
-    header("location:login.php");
+    header("location:index.php");
     // Flag for successful insertion
     //$insert = true;
 }
