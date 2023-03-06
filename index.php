@@ -87,7 +87,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 	<main>
     <fieldset>
     <legend><h1>Login</h1></legend>
-    <form action="login.php" method="post">    
+    <form action="index.php" method="post">    
     <div class="container1">
         <div>
             <label for="username"><b>E-Mail</b></label>
